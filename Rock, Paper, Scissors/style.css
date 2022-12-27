@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkcyan;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto 0;
+    padding: 150px;
+}
+
+.main {
+    position: relative;
+    left: -20px;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+span {
+    color: red;
+
+}
+
+.main h2 {
+    padding: 0.85em;
+}
+
+.btn button {
+    padding: 0.9em 1.9em;
+    background-color: blue;
+    color: aqua;
+    border: 3px solid aqua;
+    border-radius: 2em;
+}

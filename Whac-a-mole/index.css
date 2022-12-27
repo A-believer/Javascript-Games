@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+    color: brown;
+}
+
+.grid {
+    width: 456px;
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.mole {
+    background-color: red;
+}
